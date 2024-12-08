@@ -1,0 +1,34 @@
+holesky:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  isNft: false
+  mailbox: "0x46f7C5D896bbeC89bE1B19e4485e59b4Be49e9Cc"
+  owner: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+  proxyAdmin:
+    address: "0x33dB966328Ea213b0f76eF96CA368AB37779F065"
+    owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
+  type: native
+polygonamoy:
+  interchainSecurityModule:
+    modules:
+      - relayer: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+        type: trustedRelayerIsm
+      - domains: {}
+        owner: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+        type: defaultFallbackRoutingIsm
+    threshold: 1
+    type: staticAggregationIsm
+  isNft: false
+  mailbox: "0x54148470292C24345fb828B003461a9444414517"
+  owner: "0xe3ECDc63B560B17139844c6b5ed56fb41Bd98be2"
+  proxyAdmin:
+    address: "0xC2E36cd6e32e194EE11f15D9273B64461A4D49A2"
+    owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
+  type: synthetic

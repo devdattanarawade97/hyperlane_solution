@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../schema.json
+blockExplorers:
+  - apiUrl: " https://www.oklink.com/"
+    family: other
+    name: amoy_explorer
+    url: https://www.oklink.com/amoy
+chainId: 80002
+displayName: Amoy
+domainId: 80002
+isTestnet: true
+name: amoy
+nativeToken:
+  decimals: 18
+  name: Ether
+  symbol: ETH
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc-amoy.polygon.technology
